@@ -1,3 +1,4 @@
+//Created by IT21470004 - S. R. Bopitiya
 #include <iostream>
 #include "CardPayment.h"
 #include <cstring>
@@ -10,7 +11,6 @@ CardPayment::CardPayment()
 	exp = "MM/YY";
 	strcpy(cvv, "000");
 }
-//dslovn
 
 void CardPayment::setCardDetails(char CardNo[20], string CardType, string Exp, char CVV[3])
 {
