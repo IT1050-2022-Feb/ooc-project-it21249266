@@ -1,4 +1,4 @@
-//Created by IT21479250 Gunathilaka I.U.
+//Created by IT21479250 Gunathilaka I.U
 #include "Passenger.h"
 #include <iostream>
 using namespace std;
