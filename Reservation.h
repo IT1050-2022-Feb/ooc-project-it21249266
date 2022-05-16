@@ -24,9 +24,9 @@ class Reservation
      Reservation(int rNo,string rDate,string mType,string sType)
      void addTicket(Ticket *t)
      void addPassenger(Passenger *p)
-     void calcelReservation ()
+     void cancelReservation ()
      void validateReservation ()
-     void displayTickect ()
+     void displayTicket ()
      void displayReservationDetails ()
      ~Reservation ()
 };
