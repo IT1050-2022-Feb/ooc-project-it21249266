@@ -14,7 +14,10 @@ class Report
     string reportDate;
 
   public:
-Report();  //constructor
-void generateReservationReport(Reservation* r);
-generatePaymentReport
-}
+    Report();  //constructor
+    void generateReservationReport(Reservation* r);
+    void generatePaymentReport(Payment* p);
+    void generateFlightReport(Flight* f);
+    void displayReport();
+    ~Report();  //destructor
+};
