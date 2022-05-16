@@ -10,7 +10,7 @@ CardPayment::CardPayment()
 	exp = "MM/YY";
 	strcpy(cvv, "000");
 }
-
+//dslovn
 
 void CardPayment::setCardDetails(char CardNo[20], string CardType, string Exp, char CVV[3])
 {
