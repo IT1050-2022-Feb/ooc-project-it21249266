@@ -33,7 +33,7 @@ void Reservation::addPassenger(Passenger *p)
 {
 	
 }
-void Reservation::calcelReservation ()
+void Reservation::cancelReservation ()
 {
 	
 }
@@ -45,7 +45,7 @@ void Reservation::displayReservationDetails ()
 {
 	
 }
-void Reservation::displayTickect ()
+void Reservation::displayTicket ()
 {
 	
 	tic -> displayTicketDetails();
