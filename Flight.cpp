@@ -6,7 +6,7 @@ using namespace std;
 
 Flight::Flight()
 {
-	 flightID=0;
+     flightID=0;
      deptTime="";
      deptDate="DD/MM/YYYY";
      deptLocation="";
@@ -25,14 +25,14 @@ void addTicketDetails(ticket *t1,ticket *t2)
 
 void Flight::setFlightDetails(int fID , string deTime, string deDate, string deLocation, string aTime, string aDate, string  aLocation, int no_ofSeats)
 {
-	flightID=fID
-    deptTime=deTime
-	deptDate=deDate
-    deptLocation=deLocation
-	arrTime=aTime
-	arrDate=aDate
-	arrLocation=aLocation
-	noOfSeats=no_ofSeats
+	flightID=fID;
+        deptTime=deTime;
+	deptDate=deDate;
+        deptLocation=deLocation;
+	arrTime=aTime;
+	arrDate=aDate;
+	arrLocation=aLocation;
+	noOfSeats=no_ofSeats;
 	
 }
 
